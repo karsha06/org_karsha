@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/myform.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my form</title>
+</head>
+<body>
+<div id="div-container">
+    <div class="form-group"></div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+</div>
+
+<div id="form-group">
+    <label for="email">email</label><input
+        type="text" id="email" name="email" required>
+</div>
+<div class="form-group">
+    <label for="pass">password</label><br><input
+        type="password" id="pass" name="pass" required><br><br>
+    <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="others">others</option>
+    </select><br>
+    <div class="form-group">
+        <label>intrest</label><br>
+        <input type="checkbox" id="intrest1" name="intrest1">
+        <label for="intrest1">reading</label>
+        <input type="checkbox" id="intrest2" name="intrest2">
+        <label for="intrest2">coding</label>
+        <input type="checkbox" id="intrest3" name="intrest3">
+        <label for="intrest3">travelling</label>
+
+    </div>
+    <div class="form-group">
+        <label>choose a programming language</label><br>
+        <input type="radio" id="lang1" name="lang1" value="java">
+        <label for="lang1">java</label>
+        <input type="radio" id="lang2" name="lang2" value="python">
+        <label for="lang2">python</label>
+        <input type="radio" id="lang3" name="lang3" value="html">
+        <label for="lang3">html</label>
+        <input type="radio" id="lang4" name="lang4" value="kotlin">
+        <label for="lang4">kotlin</label>
+    </div>
+    <div class="form-group">
+        <label for="message">additional information</label>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <div class="form-group">
+     <button type="submit">submit</button>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

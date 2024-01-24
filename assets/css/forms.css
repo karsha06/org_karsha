@@ -1,0 +1,39 @@
+#fname{
+     border: #e507df;
+    margin: 20px;
+    padding: 20px;
+    font-family: Z003;
+    background-color: paleturquoise;
+}
+#lname{
+    border: #ff09fb;
+    margin: 12px;
+    padding: 15px;
+    font-family: "Z003";
+    background-color: paleturquoise;
+}
+#dob{
+    border: #e305dc;
+    margin: 12px;
+    padding:15px;
+    font-family: Z003;
+    background-color: paleturquoise;
+}
+#email{border: #fd4efa;
+    margin: 12px;
+    padding: 15px;
+    font-family: Z003;
+    background-color: paleturquoise;
+}
+#pass{border: #fd4efa;
+    margin: 12px;
+    padding: 15px;
+    font-family: Z003;
+    background-color: paleturquoise;
+
+}
+body{
+    background-image:url("../images/bonfire.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

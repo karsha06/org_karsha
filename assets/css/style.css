@@ -1,0 +1,42 @@
+.fruits{
+    border: solid 3px purple;
+    background-color: aqua;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: "Century Schoolbook L";
+}
+.cars{
+    border:solid 5px deeppink;
+    background-color: paleturquoise;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: aakar;
+
+
+}
+.FRUITS{
+    border: solid 4px greenyellow;
+    background-color: #c574c5;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Chilanka;
+}
+#computers{
+    border: #8248c7;
+    background-color: #55ff00;
+    text-align: center;
+    margin:20px;
+    padding: 20px;
+    font-family: "Bitstream Charter";
+}
+#travelling{
+    border: #8248c7;
+    background-color: paleturquoise;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: serif;
+}
